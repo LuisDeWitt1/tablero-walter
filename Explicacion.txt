@@ -1,0 +1,8 @@
+Este código crea una app interactiva usando Streamlit con un menú lateral donde puedes elegir entre 10 ejercicios de funciones en Python. Cada opción te permite hacer cosas como saludar, sumar números, calcular el área de un triángulo o separar números pares e impares.
+
+El menú usa st.sidebar.selectbox para que escojas el ejercicio por su nombre, como "Suma de Dos Números" o "Calculadora Flexible". Dependiendo de lo que elijas, aparecerán casillas donde puedes ingresar datos (st.text_input, st.number_input) y botones (st.button) para ejecutar cada función.
+
+Los resultados se muestran automáticamente en la página con st.write. Así, puedes ver de inmediato los cálculos o información que has ingresado. Este tablero interactivo te ayuda a practicar y aprender funciones en Python de una forma sencilla y visual.
+
+
+Y todo esto se logro gracias a la ayuda de amigos ya egresados que me explicaron el como y por que.
